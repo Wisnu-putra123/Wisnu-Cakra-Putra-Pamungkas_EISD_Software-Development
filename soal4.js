@@ -1,17 +1,17 @@
 function periksa(){
     
     function duplikat(teks) {
-        let dataArray = teks.split(',').map(item => item.trim()); // Pisahkan & hapus spasi
+        let dataArray = teks.split(',').map(item => item.trim()); 
         
         for (let i = 0; i < dataArray.length; i++) {
             for (let j = i + 1; j < dataArray.length; j++) {
                 if (dataArray[i] === dataArray[j]) {
-                    return true; // Langsung return true jika ada duplikat
+                    return true; 
                 }
             }
         }
         
-        return false; // Jika tidak ada duplikat
+        return false; 
     }
     
     let nilai = document.getElementById("input").value;
