@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Soal 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="soal1.css">
+        <script src="soal1.js"></script>
+    </head>
+    <body>
+        <div class="frame_utama">
+            <div class="kontainer_atas">
+                <h2 class="judul">Rating</h2>
+                <input class="teks_field_feedback" id="input" type="number" placeholder="Masukkan feedback (1-10)">
+                <div class="kontainer_bawah">
+                    <div class="kontainer_feedback">
+                        <p>Terendah</p>
+                        <p id="rendah">0</p>
+                    </div>
+                    <div class="kontainer_feedback">
+                        <P>Tertinggi</P>
+                        <p id="tinggi">0</p>
+                    </div>
+                    <div class="kontainer_feedback">
+                        <p>Rata-Rata</p>
+                        <p id="rata-rata">0</p>
+                    </div>
+                </div>
+                <div class="kontainer_tombol">
+                    <button class="tombol_kirim" onclick="kirim()">
+                        Kirim
+                    </button>
+                    <button class="tombol_hapus" onclick="hapus()">
+                        Hapus semua
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

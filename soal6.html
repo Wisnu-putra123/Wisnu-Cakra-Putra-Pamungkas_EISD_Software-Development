@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Soal 6</title>
+        <link rel="stylesheet" href="soal6.css">
+        <script src="soal6.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="frame_utama">
+            <div class="kontainer_konten">
+                <h1 class="judul">Fried Chicken</h1>
+                <input class="input" placeholder="Masukkan Nama" id="nama">
+                <!-- <button class="tombol nama" onclick="nama()">Masukkan nama</button> -->
+                <table id="table">
+                    <tr>
+                        <td>Menu</td>
+                        <td>Tipe</td>
+                        <td>Harga</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="tombol_menu" onclick="pesan(15000, 5, 'Ayam Goreng Krispi')">
+                                Ayam Goreng Krispi
+                            </button>
+                        </td>
+                        <td>Makanan</td>
+                        <td>15.000 + 5%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="tombol_menu" onclick="pesan(13000, 5, 'Ayam Puk Puk (Bukan di  geprek)')">
+                                Ayam Puk Puk (Bukan di  geprek)
+                            </button>
+                        </td>
+                        <td>Makanan</td>
+                        <td>13.000 + 5%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="tombol_menu" onclick="pesan(20000, 5, 'Ayam Bakar')">
+                                Ayam Bakar
+                            </button>
+                        </td>
+                        <td>Makanan</td>
+                        <td>20.000 + 5%</td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="tombol_menu" onclick="pesan(5000, 3, 'Es Teh')">
+                                Es Teh
+                            </button>
+                        </td>
+                        <td>Minuman</td>
+                        <td>5.000 + 3%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="tombol_menu" onclick="pesan(7000, 3, 'Es Jeruk')">
+                                Es Jeruk
+                            </button>
+                        </td>
+                        <td>Minuman</td>
+                        <td>7.000 + 3%</td>
+                    </tr>
+                </table>
+                
+                <div class="kontainer_tombol">
+                    <button class="tombol pesan" onclick="hitung()">Hitung</button>
+                    <button class="tombol hapus" onclick="hapus()">Hapus</button>
+                </div>
+                
+                <div class="kontainer_hasil" id="kontainer_hasil">
+                    <p class="hasil" id="hasil">
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

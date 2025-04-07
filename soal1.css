@@ -1,0 +1,50 @@
+body{
+    margin:0vh; padding:0vh; overflow:hidden;
+}
+.frame_utama{
+    margin:0vh; padding:vh; height:100vh; width:100%;
+    background:linear-gradient(to bottom right, rgb(104, 90, 255), rgb(0, 0, 99));
+    justify-content:center; align-items:center; overflow:hidden; 
+    display:flex;
+}
+.kontainer_atas{
+    margin:0vh; padding:0vh; height:70%; width:50%;
+    background-color:rgb(11, 2, 102); overflow:hidden; 
+    border-radius:20px;  align-items:center; justify-content:normal; 
+    display:flex; flex-direction:column;
+}
+.judul{
+    color: white; font-size:2.5vw
+}
+.teks_field_feedback{
+    padding:0vh 1vh; margin:0vh; width:80%; height:7%; border-radius:10px;
+    border:none; font-size:1.2vw; box-sizing: border-box;
+}
+.kontainer_bawah{
+    padding:0vh; margin:5vh; width:80%; height:30%; background-color:transparent;
+    justify-content: center; align-items:center; display:flex; overflow:hidden;
+}
+.kontainer_feedback{
+    padding:0vh; margin:2vh; width:35%; height:100%; background-color:rgb(213, 235, 255);
+    align-items:center; justify-content:normal; display:flex; border-radius:10px;
+    flex-direction:column;
+}
+.kontainer_tombol{
+    padding:0vh; margin:0vh; width:80%; height:7%; overflow:hidden;
+}
+.tombol_kirim{
+    padding:0vh; margin:0vh 0vh 0vh 0vh; height:100%; width:20%; 
+    border-radius:10px; border:none; background-color:rgb(0, 193, 0);
+    color:white; cursor:pointer;
+}
+.tombol_kirim:hover{
+    background-color:rgb(0, 255, 0);
+}
+.tombol_hapus{
+    padding:0vh; margin:0vh 0vh 0vh 1vh; height:100%; width:20%; 
+    border-radius:10px; border:none;  background-color:rgb(193, 0, 0);
+    color:white; cursor:pointer;
+}
+.tombol_hapus:hover{
+    background-color:rgb(255, 5, 5);
+}
