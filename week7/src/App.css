@@ -1,0 +1,35 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, rgb(0, 0, 194), rgb(0, 0, 97));
+  min-height:100vh;
+}
+
+.heading{
+  color:aliceblue;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+img{
+  height:50px;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
